@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Application Matt" max_length="40" name="x_58872_needit_application_matt" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="name" mandatory="true" max_length="40" name="u_string_1" type="string">
+            <choice>
+                <element label="MES User Management" sequence="0" value="1"/>
+                <element label="Virtual User Generator" sequence="1" value="2"/>
+                <element label="SOAP UI" sequence="2" value="3"/>
+                <element label="CDM" sequence="3" value="4"/>
+                <element label="PEW" sequence="4" value="5"/>
+                <element label="PTC (RELAX (Relex Administrator &amp; Relex Architect 2008))" sequence="5" value="6"/>
+                <element label="SAT" sequence="6" value="7"/>
+                <element label="ACE" sequence="7" value="8"/>
+                <element label="SIN Cisco SFCS Prod" sequence="8" value="9"/>
+                <element label="MS Visio" sequence="9" value="10"/>
+                <element label="MS Project" sequence="10" value="11"/>
+                <element label="EWP" sequence="11" value="12"/>
+                <element label="Horizon Application" sequence="12" value="13"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="requested" mandatory="true" max_length="40" name="u_string_2" type="string">
+            <choice>
+                <element label="Requested" sequence="0" value="1"/>
+                <element label="Not requested" sequence="1" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>
